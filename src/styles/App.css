@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    max-width: 100vw;
+}
+
+
+/* SECTION 1 */
+
+.section1 {
+    background: url("../images/backgrounds/background-1.jpg") no-repeat center center fixed;
+    color: white;
+    font-size: 2em;
+    height: 100vh;
+}
+
+.typewriter {
+    padding: 10vw 0vw 0vh 10vw;
+}
+
+
+/* SECTION 2 */
+
+.section2 {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteContainer {
+    background-color: white;
+    font-size: 2em;
+    margin: 100px 300px;
+    padding: 50px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 50px #9f9f9f;
+    -webkit-box-shadow: 0 0 50px #9f9f9f;
+    box-shadow: 0 0 50px #9f9f9f;
+}
+
+.quote {
+    text-align: center;
+}
+
+.author {
+    margin-top: 20px;
+    text-align: end;
+}
+
+
+/* SECTION 3 */
+
+h2 {
+    margin: 2em 0 4em 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+.skillsGrid {
+    margin: 0 5em 5em 5em;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    opacity: 1;
+}
+
+.logo:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.logo_name {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* SECTION 4 */
